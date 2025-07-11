@@ -1,8 +1,11 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const AppContext = createContext()
 
 export const AppContextProvider = (props) => {
+    const [searchFilter, setSearchFilter] = useState()
+    
+    
     const value = {
 
     }
